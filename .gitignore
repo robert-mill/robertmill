@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+/app/config/parameters.yml
+/build/
+/phpunit.xml
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/vendor/
+/web/bundles/
+=======
+app\config
+>>>>>>> 73291b20db5d5f7a7ccacad1b24aadc465dfb94f
