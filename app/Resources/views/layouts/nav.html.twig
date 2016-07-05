@@ -1,0 +1,14 @@
+{% if nav is defined %}
+    <ul>
+        {% for item in nav %}
+            <div class="col-lg-12 col-sm-6"><a href="{{ item.link }}">{{ item.name }}</a> </div>
+        {% endfor %}
+    </ul>
+{% else %}
+
+
+        <div class="col-lg-2 col-sm-6"><a href="#">About</a> </div>
+        <div class="col-lg-2 col-sm-6"><a href="#">Contact</a> </div>
+        <div class="col-lg-2 col-sm-6"><a href="#">Services/Products</a> </div>
+
+{% endif %}

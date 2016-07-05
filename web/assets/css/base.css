@@ -1,0 +1,7 @@
+
+.wineBanner{
+    background: url("../images/custom/wine.svg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    border:1px solid green;
+}
