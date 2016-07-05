@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
+            <h2 class="margin-top-0 text-primary">one</h2>
+            {% if product_form is defined %}
+                {{  form_start(product_form)  }}
+                {{  form_end(product_form)  }}
+            {% endif %}
+
+            <p class="text-faded"></p>
+            <a href="#one" class="btn btn-default btn-xl page-scroll">One</a>
+        </div>
+    </div>
+</div>
