@@ -5,3 +5,12 @@
     background-repeat: no-repeat;
     border:1px solid green;
 }
+form {
+    color: #000;
+}
+form label{
+    color: #fff;
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+}

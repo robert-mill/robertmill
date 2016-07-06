@@ -3,6 +3,7 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 /**
  * blockContent
@@ -10,7 +11,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="block_content")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\blockContentRepository")
  */
-class blockContent
+class blockContent extends Controller
 {
     /**
      * @var int
